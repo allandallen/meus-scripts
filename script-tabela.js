@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -2615,6 +2614,3 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#obMdl').innerHT
 try{const f=JSON.parse(localStorage.getItem('ob_fn_v2')||'null');
  if(f&&f.length===FUNCOES.length&&f.every(v=>typeof v==='number'&&v>0))f.forEach((v,i)=>FUNCOES[i][1]=v)}catch(e){}
 OB.restore();
-</script>
-</body>
-</html>
